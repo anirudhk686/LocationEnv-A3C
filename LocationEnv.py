@@ -95,7 +95,7 @@ class LocationEnvironment3(gym.Env):
         for i in range(self.n_locations):
             self.locations[i].location_constant = location_constant
 
-        #self._shuffle_bots()
+        self._shuffle_bots()
 
     # define reset hours func , where new bots are introduced
     def reset_hours():
